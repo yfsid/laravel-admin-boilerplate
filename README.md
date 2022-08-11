@@ -26,6 +26,11 @@
    > password
   ```
 
+- Install Laravel Debugbar
+  ```php
+  composer require barryvdh/laravel-debugbar --dev
+  ```
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
