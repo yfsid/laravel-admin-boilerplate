@@ -2,6 +2,29 @@
 
 ## About Laravel Admin
 - Install laravel v9.24.0 on PHP v8.1.8
+- Install laravel breeze
+  ```php
+  composer require laravel/breeze --dev
+
+  php artisan breeze:install
+  npm install && npm run dev
+
+  php artisan migrate
+  ```
+- Install Filament
+  ```php
+  composer require filament/filament
+
+  php artisan make:filament-user
+  Name:
+   > admin
+
+   Email address:
+   > admin@admin.com
+
+   Password:
+   > password
+  ```
 
 ## License
 
